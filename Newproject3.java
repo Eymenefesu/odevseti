@@ -1,0 +1,22 @@
+
+import java.util.Scanner;
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+/**
+ *
+ * @author PC
+ */
+public class Newproject3 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("bir sayi verin");
+        int N = input.nextInt();
+        int i;
+        for (i = 1; i <= 10; i++) {
+            System.out.println(i + "*" + N + "=" + i * N);
+        }
+    }
+}
